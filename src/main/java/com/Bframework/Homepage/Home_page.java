@@ -13,7 +13,7 @@ import org.openqa.selenium.support.PageFactory;
 public class Home_page extends Basepage {
     WebDriver driver;
 
-    @FindBy(how = How.LINK_TEXT,using = "Home")
+    @FindBy(how = How.LINK_TEXT,using = "Homepage")
     WebElement homepagelink;
 
     @FindBy(how = How.ID,using = "idcta-link")
